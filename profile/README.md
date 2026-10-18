@@ -14,11 +14,23 @@ Repository: [localthink-format](https://github.com/localthink-org/localthink-for
 
 ### LTF Builder
 
-A Chrome extension for exporting ChatGPT conversations as LocalThink Format files.
+A Chrome extension for exporting ChatGPT, Claude, Gemini, and Grok conversations as LocalThink Format files.
 
-LTF Builder runs only after the user clicks Capture, reads the current ChatGPT page locally, and downloads a `.ltf.md` file without sending conversation content to LocalThink or third-party services.
+LTF Builder runs only after the user clicks Capture, reads the current conversation page locally, and downloads a `.ltf.md` file without sending conversation content to LocalThink or third-party services.
 
 Repository: [localthink-builder](https://github.com/localthink-org/localthink-builder)
+
+Privacy: [localthink.ai/privacy](https://localthink.ai/privacy)
+
+### LocalThink for Mac
+
+A local-first desktop app for searching, organizing, and continuing saved AI conversations on your own Mac.
+
+Available now for macOS (Apple silicon). Your saved conversation library stays on your computer.
+
+Download: [localthink.ai/download](https://localthink.ai/download)
+
+Privacy: [localthink.ai/privacy](https://localthink.ai/privacy)
 
 ### gbrain-localthink
 
@@ -44,3 +56,8 @@ Repository: [gbrain-localthink](https://github.com/localthink-org/gbrain-localth
 ## Website
 
 [localthink.org](https://localthink.org)
+
+Product download and privacy live on [localthink.ai](https://localthink.ai):
+
+- [Download LocalThink for Mac](https://localthink.ai/download)
+- [Privacy policy](https://localthink.ai/privacy)
