@@ -20,14 +20,26 @@ LTF Builder runs only after the user clicks Capture, reads the current ChatGPT p
 
 Repository: [localthink-builder](https://github.com/localthink-org/localthink-builder)
 
+### gbrain-localthink
+
+A bridge kit connecting [GBrain](https://github.com/garrytan/gbrain) (Postgres-native personal knowledge brain) with agent session logs — and backing both up to your own git repository.
+
+It does three things: converts agent session JSONL into clean LTF markdown (auto-redacting secrets, PII, and inline images), exports GBrain pages to plain markdown, then commits and pushes both to your own backup repo — idempotent, with a pre-push secret gate that blocks the push if anything looks like a credential.
+
+One `git clone` restores everything on a fresh machine.
+
+Repository: [gbrain-localthink](https://github.com/localthink-org/gbrain-localthink)
+
 ## Principles
 
 - Local-first by default
 - Portable, readable files
 - User-owned AI conversations
+- User-owned backup (a git repo, not a SaaS export API)
 - Open formats over closed memory silos
 - Minimal data collection
 - Tools that work with ordinary files
+- Sanitize-first before anything leaves your machine
 
 ## Website
 
